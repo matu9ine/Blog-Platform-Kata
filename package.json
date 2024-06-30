@@ -5,7 +5,7 @@
   "homepage": "https://matu9ine.github.io/Blog-Platform-Kata",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
