@@ -1,0 +1,17 @@
+:root {
+    --background-color-white: #FFFFFF;
+    --Background: #EBEEF3;
+    --heading-color: #000000D8;
+    --text-color: #000000BF;
+    --text-color-red: #ff0000;
+    --text-color-secondary: #0000007F;
+    --text-color-white: #FFFFFF;
+    --text-color-grey-5: #D9D9D9;
+    --text-color-grey-7: #8C8C8C;
+    --text-color-grey-8: #595959;
+    --text-color-grey-9: #262626;
+    --font-text: Inter, sans-serif;
+    --info-color: #1890FF;
+    --success-color: #52C41A;
+    --error-color: #ff0000;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&display=swap');
+@import '@/assets/styles/variables.css';
+
+* { // :after, :before ?
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+:root {
+  background: var(--background-color-white);
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-color);
+  min-width: 100vh;
+}
+
+.App {
+}
+
+.app_wrapper {
+  //min-height: 100vh;
+  //max-width: 754px;
+  //margin: 0 auto;
+  //display: flex;
+  //flex-direction: column;
+  background-color: var(--Background);
+  min-width: 100vh;
+  min-height: 100vh;
+}
+
+.main {
+  //flex: 1 1 auto;
+  //display: grid;
+  //grid-template-rows: 52px auto;
+  //gap: 20px;
+  //grid-template-areas:
+  //  "sidebar filter"
+  //  "sidebar tickets";
+}
