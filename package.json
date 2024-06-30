@@ -2,7 +2,10 @@
   "name": "blog",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://matu9ine.github.io/Blog-Platform-Kata",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
@@ -24,6 +27,7 @@
     "antd": "^5.17.0",
     "axios": "^1.6.8",
     "date-fns": "^3.4.0",
+    "gh-pages": "^6.1.1",
     "prop-types": "^15.8.1",
     "prop-types-exact": "^1.2.0",
     "react": "^18.3.0",
